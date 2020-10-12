@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{79FEA939-4A47-4D8F-B276-7CECFF9D2779}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+    <Files>
+      <File FileName="API/Program.cs" Line="16" Column="1" />
+      <File FileName="API/appsettings.json" />
+      <File FileName="API/Startup.cs" Line="1" Column="21" />
+      <File FileName="API/appsettings.Development.json" />
+      <File FileName="API/Properties/launchSettings.json" />
+      <File FileName="API/Entities/Product.cs" Line="10" Column="5" />
+      <File FileName="API/Data/StoreContext.cs" Line="5" Column="25" />
+      <File FileName="API/Data/Migrations/20201009163725_InitialCreate.cs" Line="3" Column="25" />
+      <File FileName="API/Controllers/ProductsController.cs" Line="26" Column="48" />
+      <File FileName="Infrastructure/Data/Migrations/20201009163725_InitialCreate.Designer.cs" Line="2" Column="21" />
+      <File FileName="Infrastructure/Data/Migrations/StoreContextModelSnapshot.cs" Line="10" Column="31" />
+      <File FileName=".gitignore" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sportscom" expanded="True">
+            <Node name="Solution Items" expanded="True">
+              <Node name="/Users/aneta/Projects/Shop/sportscom/.gitignore" selected="True" />
+            </Node>
+            <Node name="API" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Migrations" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
