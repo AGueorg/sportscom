@@ -17,6 +17,8 @@
     
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Data\Config\" />
+    <Folder Include="Data\SeedData\" />
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
