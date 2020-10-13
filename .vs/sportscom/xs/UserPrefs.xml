@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{79FEA939-4A47-4D8F-B276-7CECFF9D2779}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Data/ProductRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/appsettings.Development.json">
     <Files>
       <File FileName="API/Program.cs" Line="28" Column="68" />
-      <File FileName="API/Controllers/ProductsController.cs" Line="15" Column="7" />
+      <File FileName="API/Controllers/ProductsController.cs" Line="48" Column="83" />
       <File FileName="Infrastructure/Data/StoreContextSeed.cs" Line="33" Column="87" />
       <File FileName="Infrastructure/Data/StoreContext.cs" Line="1" Column="1" />
       <File FileName="Core/Interfaces/IProductRepository.cs" Line="16" Column="39" />
-      <File FileName="Infrastructure/Data/ProductRepository.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/Data/ProductRepository.cs" Line="28" Column="55" />
+      <File FileName="API/appsettings.Development.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,6 +16,7 @@
             <Node name="Solution Items" expanded="True" />
             <Node name="API" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
             <Node name="Core" expanded="True">
               <Node name="Interfaces" expanded="True" />
@@ -22,7 +24,6 @@
             <Node name="Infrastructure" expanded="True">
               <Node name="Data" expanded="True">
                 <Node name="SeedData" expanded="True" />
-                <Node name="ProductRepository.cs" selected="True" />
               </Node>
             </Node>
           </Node>
