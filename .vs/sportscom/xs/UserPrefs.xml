@@ -1,33 +1,40 @@
 ﻿<Properties StartupConfiguration="{79FEA939-4A47-4D8F-B276-7CECFF9D2779}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/appsettings.Development.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Specifications/ISpecification.cs">
     <Files>
-      <File FileName="API/Program.cs" Line="28" Column="68" />
-      <File FileName="API/Controllers/ProductsController.cs" Line="48" Column="83" />
-      <File FileName="Infrastructure/Data/StoreContextSeed.cs" Line="33" Column="87" />
-      <File FileName="Infrastructure/Data/StoreContext.cs" Line="1" Column="1" />
-      <File FileName="Core/Interfaces/IProductRepository.cs" Line="16" Column="39" />
-      <File FileName="Infrastructure/Data/ProductRepository.cs" Line="28" Column="55" />
-      <File FileName="API/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="API/DTOs/ProductToReturnDTO.cs" Line="6" Column="45" />
+      <File FileName="Core/Entities/Product.cs" Line="6" Column="5" />
+      <File FileName="API/Controllers/ProductsController.cs" Line="17" Column="7" />
+      <File FileName="API/Helpers/MappingProfiles.cs" Line="15" Column="84" />
+      <File FileName="API/Startup.cs" Line="48" Column="34" />
+      <File FileName="API/appsettings.Development.json" Line="12" Column="37" />
+      <File FileName="API/Helpers/ProductUrlResolver.cs" Line="28" Column="1" />
+      <File FileName="Core/Specifications/ISpecification.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="sportscom" expanded="True">
             <Node name="Solution Items" expanded="True" />
-            <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
-            </Node>
             <Node name="Core" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Entities" expanded="True" />
               <Node name="Interfaces" expanded="True" />
+              <Node name="Specifications" expanded="True">
+                <Node name="ISpecification.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Infrastructure" expanded="True">
               <Node name="Data" expanded="True">
+                <Node name="Config" expanded="True" />
+                <Node name="Migrations" expanded="True" />
                 <Node name="SeedData" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -35,7 +42,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/ProductsController.cs" relfile="API/Controllers/ProductsController.cs" line="66" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
