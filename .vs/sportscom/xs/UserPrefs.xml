@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{79FEA939-4A47-4D8F-B276-7CECFF9D2779}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="API/Startup.cs">
     <Files>
-      <File FileName="API/Extensions/ApplicationServicesExtensions.cs" Line="16" Column="69" />
-      <File FileName="API/Controllers/ProductsController.cs" Line="20" Column="7" />
-      <File FileName="API/Startup.cs" Line="56" Column="23" />
-      <File FileName="API/Extensions/SwaggerServiceExtensions.cs" Line="31" Column="24" />
-      <File FileName="API/Helpers/MappingProfiles.cs" Line="1" Column="1" />
+      <File FileName="API/Controllers/ProductsController.cs" Line="58" Column="83" />
+      <File FileName="API/Startup.cs" Line="36" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,12 +11,8 @@
             <Node name="Solution Items" expanded="True" />
             <Node name="API" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="DTOs" expanded="True" />
-              <Node name="Errors" expanded="True" />
-              <Node name="Extensions" expanded="True" />
               <Node name="Helpers" expanded="True" />
               <Node name="Middleware" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
               <Node name="Startup.cs" selected="True" />
             </Node>
             <Node name="Core" expanded="True">
@@ -47,12 +40,13 @@
     <BreakpointStore>
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/BaseApiController.cs" relfile="API/Controllers/BaseApiController.cs" line="10" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/ErrorController.cs" relfile="API/Controllers/ErrorController.cs" line="16" column="1" />
-      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Middleware/ExceptionMiddleware.cs" relfile="API/Middleware/ExceptionMiddleware.cs" line="30" column="1" />
-      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Middleware/ExceptionMiddleware.cs" relfile="API/Middleware/ExceptionMiddleware.cs" line="38" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/BuggyController.cs" relfile="API/Controllers/BuggyController.cs" line="31" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/BuggyController.cs" relfile="API/Controllers/BuggyController.cs" line="20" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/BuggyController.cs" relfile="API/Controllers/BuggyController.cs" line="14" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/BuggyController.cs" relfile="API/Controllers/BuggyController.cs" line="39" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Infrastructure/Data/ProductRepository.cs" relfile="Infrastructure/Data/ProductRepository.cs" line="33" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Core/Specifications/ProductWithFiltersForCountSpecification.cs" relfile="Core/Specifications/ProductWithFiltersForCountSpecification.cs" line="9" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" relfile="Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" line="11" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
