@@ -12,7 +12,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{830956D3-0C7B-487C-BEF2-91BBBD0C120E}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		ProductsWithTypesAndBrandsSpecification.cs = ProductsWithTypesAndBrandsSpecification.cs
 	EndProjectSection
 EndProject
 Global

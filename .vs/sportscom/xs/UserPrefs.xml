@@ -1,33 +1,24 @@
 ﻿<Properties StartupConfiguration="{79FEA939-4A47-4D8F-B276-7CECFF9D2779}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="client/.gitignore">
     <Files>
       <File FileName="API/Controllers/ProductsController.cs" Line="58" Column="83" />
-      <File FileName="API/Startup.cs" Line="36" Column="1" />
+      <File FileName="API/Startup.cs" />
+      <File FileName="client/src/index.html" />
+      <File FileName="client/src/app/app.component.ts" />
+      <File FileName="client/src/app/app.component.html" />
+      <File FileName="client/src/app/app.module.ts" Line="1" Column="1" />
+      <File FileName="client/angular.json" Line="134" Column="2" />
+      <File FileName="client/.gitignore" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
           <Node name="sportscom" expanded="True">
-            <Node name="Solution Items" expanded="True" />
-            <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Helpers" expanded="True" />
-              <Node name="Middleware" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+            <Node name="client" expanded="True">
+              <Node name=".gitignore" selected="True" />
             </Node>
-            <Node name="Core" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Entities" expanded="True" />
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Specifications" expanded="True" />
-            </Node>
-            <Node name="Infrastructure" expanded="True">
-              <Node name="Data" expanded="True">
-                <Node name="Config" expanded="True" />
-                <Node name="Migrations" expanded="True" />
-                <Node name="SeedData" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="API" expanded="True" />
           </Node>
         </State>
       </Pad>
