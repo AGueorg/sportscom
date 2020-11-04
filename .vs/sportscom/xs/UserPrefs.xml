@@ -1,16 +1,14 @@
 ﻿<Properties StartupConfiguration="{79FEA939-4A47-4D8F-B276-7CECFF9D2779}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="pagination.ts">
+  <MonoDevelop.Ide.Workbench ActiveDocument="client/src/app/shared/models/shopParams.ts">
     <Files>
-      <File FileName="client/src/app/nav-bar/nav-bar.component.scss" Line="11" Column="17" />
-      <File FileName="client/src/app/nav-bar/nav-bar.component.html" Line="5" Column="1" />
-      <File FileName="client/src/app/app.component.html" Line="6" Column="34" />
-      <File FileName="client/src/app/app.module.ts" Line="19" Column="21" />
-      <File FileName="client/src/app/app.component.ts" Line="18" Column="37" />
-      <File FileName="client/angular.json" Line="61" Column="43" />
-      <File FileName="API/Startup.cs" Line="59" Column="36" />
-      <File FileName="client/tsconfig.json" Line="1" Column="1" />
-      <File FileName="client/src/app/models/product.ts" Line="9" Column="2" />
-      <File FileName="pagination.ts" Line="1" Column="1" />
+      <File FileName="client/src/app/shop/shop.service.ts" Line="28" Column="75" />
+      <File FileName="client/src/app/shared/components/paging-header/paging-header.component.html" Line="12" Column="37" />
+      <File FileName="client/src/app/shared/components/paging-header/paging-header.component.ts" Line="13" Column="20" />
+      <File FileName="client/src/app/shop/shop.component.html" Line="43" Column="61" />
+      <File FileName="client/src/app/shared/components/pager/pager.component.html" Line="2" Column="27" />
+      <File FileName="client/src/app/shared/components/pager/pager.component.ts" Line="12" Column="26" />
+      <File FileName="client/src/app/shop/shop.component.ts" Line="84" Column="28" />
+      <File FileName="client/src/app/shared/models/shopParams.ts" Line="7" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,10 +18,18 @@
             <Node name="client" expanded="True">
               <Node name="src" expanded="True">
                 <Node name="app" expanded="True">
-                  <Node name="models" selected="True" />
+                  <Node name="shared" expanded="True">
+                    <Node name="components" expanded="True">
+                      <Node name="pager" expanded="True" />
+                      <Node name="paging-header" expanded="True" />
+                    </Node>
+                    <Node name="models" expanded="True">
+                      <Node name="shopParams.ts" selected="True" />
+                    </Node>
+                  </Node>
+                  <Node name="shop" expanded="True" />
                 </Node>
               </Node>
-              <Node name="ssl" expanded="True" />
             </Node>
             <Node name="API" expanded="True" />
           </Node>
