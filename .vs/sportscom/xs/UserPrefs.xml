@@ -1,14 +1,10 @@
 ﻿<Properties StartupConfiguration="{79FEA939-4A47-4D8F-B276-7CECFF9D2779}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="client/src/app/shared/models/shopParams.ts">
+  <MonoDevelop.Ide.Workbench ActiveDocument="client/src/app/shop/shop.module.ts">
     <Files>
-      <File FileName="client/src/app/shop/shop.service.ts" Line="28" Column="75" />
-      <File FileName="client/src/app/shared/components/paging-header/paging-header.component.html" Line="12" Column="37" />
-      <File FileName="client/src/app/shared/components/paging-header/paging-header.component.ts" Line="13" Column="20" />
-      <File FileName="client/src/app/shop/shop.component.html" Line="43" Column="61" />
-      <File FileName="client/src/app/shared/components/pager/pager.component.html" Line="2" Column="27" />
-      <File FileName="client/src/app/shared/components/pager/pager.component.ts" Line="12" Column="26" />
-      <File FileName="client/src/app/shop/shop.component.ts" Line="84" Column="28" />
-      <File FileName="client/src/app/shared/models/shopParams.ts" Line="7" Column="1" />
+      <File FileName="client/src/app/app-routing.module.ts" Line="9" Column="1" />
+      <File FileName="client/src/app/app.module.ts" Line="1" Column="1" />
+      <File FileName="client/src/app/shop/shop-routing.module.ts" Line="17" Column="24" />
+      <File FileName="client/src/app/shop/shop.module.ts" Line="16" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,16 +14,14 @@
             <Node name="client" expanded="True">
               <Node name="src" expanded="True">
                 <Node name="app" expanded="True">
-                  <Node name="shared" expanded="True">
-                    <Node name="components" expanded="True">
-                      <Node name="pager" expanded="True" />
-                      <Node name="paging-header" expanded="True" />
-                    </Node>
-                    <Node name="models" expanded="True">
-                      <Node name="shopParams.ts" selected="True" />
-                    </Node>
+                  <Node name="core" expanded="True">
+                    <Node name="nav-bar" expanded="True" />
                   </Node>
-                  <Node name="shop" expanded="True" />
+                  <Node name="shop" expanded="True">
+                    <Node name="product-details" expanded="True" />
+                    <Node name="product-item" expanded="True" />
+                    <Node name="shop.module.ts" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
