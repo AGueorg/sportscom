@@ -1,18 +1,8 @@
 ﻿<Properties StartupConfiguration="{79FEA939-4A47-4D8F-B276-7CECFF9D2779}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Controllers/BuggyController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="client/src/app/shop/shop.component.html">
     <Files>
-      <File FileName="client/src/app/core/nav-bar/nav-bar.component.ts" Line="1" Column="1" />
-      <File FileName="client/src/app/core/interceptors/error.interceptor.ts" Line="9" Column="50" />
-      <File FileName="client/src/app/app.module.ts" Line="27" Column="74" />
-      <File FileName="client/package.json" Line="1" Column="1" />
-      <File FileName="client/src/app/core/core.module.ts" Line="18" Column="30" />
-      <File FileName="client/angular.json" Line="35" Column="21" />
-      <File FileName="client/src/app/core/test-error/test-error.component.ts" Line="49" Column="46" />
-      <File FileName="client/src/app/core/test-error/test-error.component.html" Line="9" Column="10" />
-      <File FileName="client/src/app/core/server-error/server-error.component.ts" Line="12" Column="36" />
-      <File FileName="client/src/app/core/server-error/server-error.component.html" Line="15" Column="86" />
-      <File FileName="API/Middleware/ExceptionMiddleware.cs" Line="1" Column="1" />
-      <File FileName="API/Controllers/BuggyController.cs" Line="32" Column="36" />
+      <File FileName="client/src/app/app.component.html" Line="7" Column="30" />
+      <File FileName="client/src/app/shop/shop.component.html" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,18 +14,16 @@
                 <Node name="app" expanded="True">
                   <Node name="core" expanded="True">
                     <Node name="interceptors" expanded="True" />
-                    <Node name="nav-bar" expanded="True" />
-                    <Node name="server-error" expanded="True" />
-                    <Node name="test-error" expanded="True" />
+                    <Node name="services" expanded="True" />
+                  </Node>
+                  <Node name="home" expanded="True" />
+                  <Node name="shared" expanded="True" />
+                  <Node name="shop" expanded="True">
+                    <Node name="product-details" expanded="True" />
+                    <Node name="shop.component.html" selected="True" />
                   </Node>
                 </Node>
               </Node>
-            </Node>
-            <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="BuggyController.cs" selected="True" />
-              </Node>
-              <Node name="Middleware" expanded="True" />
             </Node>
           </Node>
         </State>
