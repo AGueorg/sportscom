@@ -1,26 +1,29 @@
 ﻿<Properties StartupConfiguration="{79FEA939-4A47-4D8F-B276-7CECFF9D2779}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Extensions/ApplicationServicesExtensions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
     <Files>
-      <File FileName="Infrastructure/Data/BasketRepository.cs" Line="25" Column="18" />
-      <File FileName="API/Controllers/BasketController.cs" />
-      <File FileName="Core/Interfaces/IBasketRepository.cs" />
-      <File FileName="API/Startup.cs" />
-      <File FileName="API/Extensions/ApplicationServicesExtensions.cs" Line="19" Column="60" />
+      <File FileName="client/src/app/checkout/checkout-routing.module.ts" Line="13" Column="34" />
+      <File FileName="client/src/app/checkout/checkout.module.ts" Line="12" Column="26" />
+      <File FileName="client/src/app/app-routing.module.ts" Line="17" Column="15" />
+      <File FileName="client/src/app/basket/basket-routing.module.ts" Line="1" Column="1" />
+      <File FileName="client/src/app/checkout/checkout.component.html" Line="2" Column="57" />
+      <File FileName=".gitignore" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="sportscom" expanded="True">
-            <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Extensions" expanded="True">
-                <Node name="ApplicationServicesExtensions.cs" selected="True" />
+            <Node name="client" expanded="True">
+              <Node name="src" expanded="True">
+                <Node name="app" expanded="True">
+                  <Node name="basket" expanded="True" />
+                  <Node name="checkout" expanded="True" />
+                </Node>
               </Node>
             </Node>
-            <Node name="Core" expanded="True">
-              <Node name="Entities" expanded="True" />
-              <Node name="Interfaces" expanded="True" />
+            <Node name=".gitignore" selected="True" />
+            <Node name="API" expanded="True">
+              <Node name="Extensions" expanded="True" />
             </Node>
             <Node name="Infrastructure" expanded="True">
               <Node name="Data" expanded="True" />
