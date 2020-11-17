@@ -1,21 +1,13 @@
 ﻿<Properties StartupConfiguration="{15849EC6-4DB7-4F7C-8B42-3D28C900C88A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Helpers/MappingProfiles.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Extensions/SwaggerServiceExtensions.cs">
     <Files>
-      <File FileName="API/Controllers/AccountController.cs" Line="61" Column="1" />
-      <File FileName="Core/Entities/Identity/Address.cs" Line="13" Column="44" />
-      <File FileName="API/DTOs/UserDto.cs" />
-      <File FileName="API/DTOs/LoginDto.cs" />
-      <File FileName="API/Program.cs" Line="1" Column="1" />
-      <File FileName="API/Startup.cs" Line="74" Column="37" />
-      <File FileName="API/DTOs/RegisterDto.cs" Line="8" Column="31" />
-      <File FileName="Core/Interfaces/ITokenService.cs" Line="8" Column="42" />
-      <File FileName="Infrastructure/Services/TokenService.cs" Line="46" Column="51" />
-      <File FileName="API/Extensions/IdenityServiceExtensions.cs" Line="32" Column="49" />
-      <File FileName="API/appsettings.Development.json" Line="20" Column="2" />
-      <File FileName="API/Controllers/BuggyController.cs" Line="21" Column="35" />
-      <File FileName="API/Extensions/UserManagerExtensions.cs" Line="13" Column="34" />
-      <File FileName="API/DTOs/AddressDto.cs" Line="11" Column="44" />
-      <File FileName="API/Helpers/MappingProfiles.cs" Line="1" Column="1" />
+      <File FileName="Core/Entities/CustomerBasket.cs" Line="18" Column="78" />
+      <File FileName="API/DTOs/AddressDto.cs" Line="1" Column="1" />
+      <File FileName="API/DTOs/CustomerBasketDto.cs" Line="9" Column="9" />
+      <File FileName="API/DTOs/BasketItemDto.cs" Line="22" Column="19" />
+      <File FileName="API/Helpers/MappingProfiles.cs" Line="19" Column="52" />
+      <File FileName="API/Controllers/BasketController.cs" Line="32" Column="26" />
+      <File FileName="API/Extensions/SwaggerServiceExtensions.cs" Line="19" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,14 +15,14 @@
           <Option id="ShowAllFiles" value="True" />
           <Node name="sportscom" expanded="True">
             <Node name="Solution Items" expanded="True" />
+            <Node name="client" expanded="True" />
             <Node name="API" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="DTOs" expanded="True" />
-              <Node name="Extensions" expanded="True" />
-              <Node name="Helpers" expanded="True">
-                <Node name="MappingProfiles.cs" selected="True" />
+              <Node name="Extensions" expanded="True">
+                <Node name="SwaggerServiceExtensions.cs" selected="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="Helpers" expanded="True" />
             </Node>
             <Node name="Core" expanded="True">
               <Node name="Entities" expanded="True">
