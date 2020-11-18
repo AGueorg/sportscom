@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{15849EC6-4DB7-4F7C-8B42-3D28C900C88A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Extensions/SwaggerServiceExtensions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="client/src/app/account/account.service.ts">
     <Files>
-      <File FileName="Core/Entities/CustomerBasket.cs" Line="18" Column="78" />
-      <File FileName="API/DTOs/AddressDto.cs" Line="1" Column="1" />
-      <File FileName="API/DTOs/CustomerBasketDto.cs" Line="9" Column="9" />
-      <File FileName="API/DTOs/BasketItemDto.cs" Line="22" Column="19" />
-      <File FileName="API/Helpers/MappingProfiles.cs" Line="19" Column="52" />
-      <File FileName="API/Controllers/BasketController.cs" Line="32" Column="26" />
-      <File FileName="API/Extensions/SwaggerServiceExtensions.cs" Line="19" Column="48" />
+      <File FileName="client/src/app/account/account.service.ts" Line="22" Column="15" />
+      <File FileName="client/src/app/core/guards/auth.guard.ts" Line="19" Column="14" />
+      <File FileName="client/src/app/app-routing.module.ts" Line="2" Column="24" />
+      <File FileName="client/src/app/account/login/login.component.ts" Line="4" Column="1" />
+      <File FileName="client/src/app/app.component.ts" Line="28" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,22 +13,35 @@
           <Option id="ShowAllFiles" value="True" />
           <Node name="sportscom" expanded="True">
             <Node name="Solution Items" expanded="True" />
-            <Node name="client" expanded="True" />
-            <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DTOs" expanded="True" />
-              <Node name="Extensions" expanded="True">
-                <Node name="SwaggerServiceExtensions.cs" selected="True" />
+            <Node name="client" expanded="True">
+              <Node name="src" expanded="True">
+                <Node name="app" expanded="True">
+                  <Node name="account" expanded="True">
+                    <Node name="login" expanded="True" />
+                    <Node name="register" expanded="True">
+                      <Node name="register.component.ts" selected="True" />
+                    </Node>
+                  </Node>
+                  <Node name="core" expanded="True">
+                    <Node name="guards" expanded="True" />
+                    <Node name="services" expanded="True" />
+                  </Node>
+                  <Node name="shared" expanded="True">
+                    <Node name="components" expanded="True">
+                      <Node name="text-input" expanded="True" />
+                    </Node>
+                    <Node name="models" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
-              <Node name="Helpers" expanded="True" />
-            </Node>
-            <Node name="Core" expanded="True">
-              <Node name="Entities" expanded="True">
-                <Node name="Identity" expanded="True" />
-              </Node>
-              <Node name="Interfaces" expanded="True" />
             </Node>
             <Node name="Infrastructure" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="Config" expanded="True" />
+                <Node name="Migrations" expanded="True" />
+                <Node name="SeedData" expanded="True" />
+              </Node>
+              <Node name="Identity" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
           </Node>
