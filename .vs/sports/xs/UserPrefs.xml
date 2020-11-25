@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{15849EC6-4DB7-4F7C-8B42-3D28C900C88A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Startup.cs">
+    <Files>
+      <File FileName="API/Controllers/BuggyController.cs" Line="13" Column="32" />
+      <File FileName="API/Controllers/ProductsController.cs" />
+      <File FileName="API/Controllers/ErrorController.cs" />
+      <File FileName="API/Controllers/BasketController.cs" />
+      <File FileName="Infrastructure/Data/StoreContext.cs" />
+      <File FileName="API/Program.cs" />
+      <File FileName="API/API.csproj" />
+      <File FileName="API/appsettings.json" />
+      <File FileName="Infrastructure/Data/GenericRepository.cs" />
+      <File FileName="Infrastructure/Data/ProductRepository.cs" />
+      <File FileName="Infrastructure/Data/StoreContextSeed.cs" />
+      <File FileName="API/Startup.cs" Line="31" Column="47" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="sports" expanded="True">
+            <Node name="API" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+            <Node name="Core" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Config" expanded="True" />
+              </Node>
+              <Node name="Identity" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/API/Controllers/BaseApiController.cs" relfile="API/Controllers/BaseApiController.cs" line="10" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/API/Controllers/ErrorController.cs" relfile="API/Controllers/ErrorController.cs" line="16" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/API/Controllers/BuggyController.cs" relfile="API/Controllers/BuggyController.cs" line="39" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/API/Controllers/BuggyController.cs" relfile="API/Controllers/BuggyController.cs" line="28" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/API/Controllers/BuggyController.cs" relfile="API/Controllers/BuggyController.cs" line="15" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/API/Controllers/BuggyController.cs" relfile="API/Controllers/BuggyController.cs" line="47" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/Infrastructure/Data/ProductRepository.cs" relfile="Infrastructure/Data/ProductRepository.cs" line="33" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" relfile="Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" line="11" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/API/Program.cs" relfile="API/Program.cs" line="30" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/Infrastructure/Identity/AppIdentityDbContext.cs" relfile="Infrastructure/Identity/AppIdentityDbContext.cs" line="20" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/API/Program.cs" relfile="API/Program.cs" line="26" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sports/Infrastructure/Data/StoreContext.cs" relfile="Infrastructure/Data/StoreContext.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
