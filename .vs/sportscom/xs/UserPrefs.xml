@@ -1,9 +1,16 @@
 ﻿<Properties StartupConfiguration="{15849EC6-4DB7-4F7C-8B42-3D28C900C88A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Helpers/ProductUrlResolver.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="client/src/app/basket/basket.component.html">
     <Files>
-      <File FileName="API/Helpers/OrderItemUrlResolver.cs" Line="18" Column="45" />
-      <File FileName="API/Helpers/MappingProfiles.cs" Line="30" Column="85" />
-      <File FileName="API/Helpers/ProductUrlResolver.cs" Line="1" Column="1" />
+      <File FileName="client/src/app/checkout/checkout-success/checkout-success.component.html" Line="7" Column="60" />
+      <File FileName="client/src/app/checkout/checkout-payment/checkout-payment.component.html" Line="2" Column="1" />
+      <File FileName="client/src/app/checkout/checkout-payment/checkout-payment.component.ts" Line="32" Column="11" />
+      <File FileName="client/src/app/checkout/checkout-success/checkout-success.component.ts" Line="13" Column="1" />
+      <File FileName="client/src/app/checkout/checkout-routing.module.ts" Line="5" Column="25" />
+      <File FileName="client/src/app/checkout/checkout-review/checkout-review.component.html" Line="1" Column="1" />
+      <File FileName="client/src/app/checkout/checkout-delivery/checkout-delivery.component.html" Line="1" Column="1" />
+      <File FileName="client/src/app/checkout/checkout-address/checkout-address.component.html" Line="1" Column="1" />
+      <File FileName="client/src/app/shared/components/basket-summary/basket-summary.component.html" Line="1" Column="22" />
+      <File FileName="client/src/app/basket/basket.component.html" Line="2" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,27 +18,38 @@
           <Option id="ShowAllFiles" value="True" />
           <Node name="sportscom" expanded="True">
             <Node name="Solution Items" expanded="True" />
-            <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DTOs" expanded="True" />
-              <Node name="Extensions" expanded="True" />
-              <Node name="Helpers" expanded="True">
-                <Node name="ProductUrlResolver.cs" selected="True" />
+            <Node name="client" expanded="True">
+              <Node name="src" expanded="True">
+                <Node name="app" expanded="True">
+                  <Node name="account" expanded="True" />
+                  <Node name="basket" expanded="True">
+                    <Node name="basket.component.html" selected="True" />
+                  </Node>
+                  <Node name="checkout" expanded="True">
+                    <Node name="checkout-address" expanded="True" />
+                    <Node name="checkout-delivery" expanded="True" />
+                    <Node name="checkout-payment" expanded="True" />
+                    <Node name="checkout-review" expanded="True" />
+                    <Node name="checkout-success" expanded="True" />
+                  </Node>
+                  <Node name="shared" expanded="True">
+                    <Node name="components" expanded="True">
+                      <Node name="basket-summary" expanded="True" />
+                      <Node name="order-totals" expanded="True" />
+                      <Node name="stepper" expanded="True" />
+                    </Node>
+                    <Node name="models" expanded="True" />
+                  </Node>
+                  <Node name="shop" expanded="True">
+                    <Node name="product-details" expanded="True" />
+                    <Node name="product-item" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
-              <Node name="Middleware" expanded="True" />
             </Node>
-            <Node name="Core" expanded="True">
-              <Node name="Entities" expanded="True">
-                <Node name="Identity" expanded="True" />
-                <Node name="OrderAggregate" expanded="True" />
-              </Node>
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Specifications" expanded="True" />
-            </Node>
+            <Node name="API" expanded="True" />
             <Node name="Infrastructure" expanded="True">
-              <Node name="Data" expanded="True" />
               <Node name="Identity" expanded="True" />
-              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
