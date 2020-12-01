@@ -1,16 +1,25 @@
 ﻿<Properties StartupConfiguration="{15849EC6-4DB7-4F7C-8B42-3D28C900C88A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="client/src/app/basket/basket.component.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="client/src/app/shared/components/basket-summary/basket-summary.component.ts">
     <Files>
-      <File FileName="client/src/app/checkout/checkout-success/checkout-success.component.html" Line="7" Column="60" />
-      <File FileName="client/src/app/checkout/checkout-payment/checkout-payment.component.html" Line="2" Column="1" />
-      <File FileName="client/src/app/checkout/checkout-payment/checkout-payment.component.ts" Line="32" Column="11" />
-      <File FileName="client/src/app/checkout/checkout-success/checkout-success.component.ts" Line="13" Column="1" />
-      <File FileName="client/src/app/checkout/checkout-routing.module.ts" Line="5" Column="25" />
-      <File FileName="client/src/app/checkout/checkout-review/checkout-review.component.html" Line="1" Column="1" />
-      <File FileName="client/src/app/checkout/checkout-delivery/checkout-delivery.component.html" Line="1" Column="1" />
-      <File FileName="client/src/app/checkout/checkout-address/checkout-address.component.html" Line="1" Column="1" />
-      <File FileName="client/src/app/shared/components/basket-summary/basket-summary.component.html" Line="1" Column="22" />
-      <File FileName="client/src/app/basket/basket.component.html" Line="2" Column="17" />
+      <File FileName="client/src/app/orders/order-detailed.component.html" Line="5" Column="13" />
+      <File FileName="client/src/app/shared/components/basket-summary/basket-summary.component.html" Line="1" Column="15" />
+      <File FileName="client/src/app/shared/components/order-totals/order-totals.component.ts" Line="11" Column="1" />
+      <File FileName="client/src/app/shared/components/order-totals/order-totals.component.html" Line="8" Column="20" />
+      <File FileName="client/src/app/shared/components/basket-summary/basket-summary.component.ts" Line="6" Column="1" />
+      <File FileName="client/src/app/shared/models/basket.ts" Line="18" Column="14" />
+      <File FileName="client/src/app/basket/basket.service.ts" Line="17" Column="10" />
+      <File FileName="client/src/app/orders/order-detailed.component.ts" Line="14" Column="3" />
+      <File FileName="client/src/app/orders/orders.service.ts" Line="1" Column="1" />
+      <File FileName="client/src/app/orders/orders-routing.module.ts" Line="1" Column="1" />
+      <File FileName="client/src/app/shared/models/order.ts" Line="1" Column="1" />
+      <File FileName="client/src/app/basket/basket.component.ts" Line="19" Column="59" />
+      <File FileName="client/src/app/checkout/checkout-routing.module.ts" Line="1" Column="1" />
+      <File FileName="client/src/app/shared/shared.module.ts" Line="17" Column="61" />
+      <File FileName="client/src/app/orders/orders.component.html" Line="1" Column="1" />
+      <File FileName="client/src/app/orders/orders.component.scss" Line="1" Column="1" />
+      <File FileName="client/src/app/orders/orders.component.ts" Line="12" Column="9" />
+      <File FileName="client/src/app/basket/basket.component.html" Line="22" Column="50" />
+      <File FileName="client/src/app/shared/components/basket-summary/basket-summary.component.scss" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,37 +31,30 @@
               <Node name="src" expanded="True">
                 <Node name="app" expanded="True">
                   <Node name="account" expanded="True" />
-                  <Node name="basket" expanded="True">
-                    <Node name="basket.component.html" selected="True" />
-                  </Node>
+                  <Node name="basket" expanded="True" />
                   <Node name="checkout" expanded="True">
-                    <Node name="checkout-address" expanded="True" />
-                    <Node name="checkout-delivery" expanded="True" />
-                    <Node name="checkout-payment" expanded="True" />
                     <Node name="checkout-review" expanded="True" />
                     <Node name="checkout-success" expanded="True" />
                   </Node>
+                  <Node name="orders" expanded="True" />
                   <Node name="shared" expanded="True">
                     <Node name="components" expanded="True">
-                      <Node name="basket-summary" expanded="True" />
+                      <Node name="basket-summary" expanded="True">
+                        <Node name="basket-summary.component.ts" selected="True" />
+                      </Node>
                       <Node name="order-totals" expanded="True" />
-                      <Node name="stepper" expanded="True" />
                     </Node>
                     <Node name="models" expanded="True" />
                   </Node>
-                  <Node name="shop" expanded="True">
-                    <Node name="product-details" expanded="True" />
-                    <Node name="product-item" expanded="True" />
-                  </Node>
                 </Node>
               </Node>
-            </Node>
-            <Node name="API" expanded="True" />
-            <Node name="Infrastructure" expanded="True">
-              <Node name="Identity" expanded="True" />
+              <Node name="ssl" expanded="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -71,21 +73,35 @@
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" relfile="Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" line="11" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Infrastructure/Identity/AppIdentityDbContext.cs" relfile="Infrastructure/Identity/AppIdentityDbContext.cs" line="20" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Infrastructure/Services/OrderService.cs" relfile="Infrastructure/Services/OrderService.cs" line="26" column="1" />
-      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/OrdersController.cs" relfile="API/Controllers/OrdersController.cs" line="59" column="1" />
-      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/OrdersController.cs" relfile="API/Controllers/OrdersController.cs" line="24" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Infrastructure/Services/OrderService.cs" relfile="Infrastructure/Services/OrderService.cs" line="66" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Infrastructure/Services/OrderService.cs" relfile="Infrastructure/Services/OrderService.cs" line="54" column="1" />
-      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/OrdersController.cs" relfile="API/Controllers/OrdersController.cs" line="50" column="1" />
-      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/OrdersController.cs" relfile="API/Controllers/OrdersController.cs" line="42" column="1" />
-      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/OrdersController.cs" relfile="API/Controllers/OrdersController.cs" line="31" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Extensions/IdenityServiceExtensions.cs" relfile="API/Extensions/IdenityServiceExtensions.cs" line="26" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/AccountController.cs" relfile="API/Controllers/AccountController.cs" line="37" column="1" />
-      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/AccountController.cs" relfile="API/Controllers/AccountController.cs" line="49" column="1" />
-      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/AccountController.cs" relfile="API/Controllers/AccountController.cs" line="56" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/AccountController.cs" relfile="API/Controllers/AccountController.cs" line="66" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/AccountController.cs" relfile="API/Controllers/AccountController.cs" line="80" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Infrastructure/Services/TokenService.cs" relfile="Infrastructure/Services/TokenService.cs" line="19" column="1" />
       <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Infrastructure/Services/TokenService.cs" relfile="Infrastructure/Services/TokenService.cs" line="25" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Core/Entities/OrderAggregate/Order.cs" relfile="Core/Entities/OrderAggregate/Order.cs" line="33" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Infrastructure/Services/OrderService.cs" relfile="Infrastructure/Services/OrderService.cs" line="29" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Helpers/MappingProfiles.cs" relfile="API/Helpers/MappingProfiles.cs" line="22" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Core/Entities/OrderAggregate/Order.cs" relfile="Core/Entities/OrderAggregate/Order.cs" line="19" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/Core/Entities/OrderAggregate/DeliveryMethod.cs" relfile="Core/Entities/OrderAggregate/DeliveryMethod.cs" line="9" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/AccountController.cs" relfile="API/Controllers/AccountController.cs" line="27" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Program.cs" relfile="API/Program.cs" line="26" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Program.cs" relfile="API/Program.cs" line="37" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Program.cs" relfile="API/Program.cs" line="22" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Startup.cs" relfile="API/Startup.cs" line="76" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Startup.cs" relfile="API/Startup.cs" line="74" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/AccountController.cs" relfile="API/Controllers/AccountController.cs" line="50" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/AccountController.cs" relfile="API/Controllers/AccountController.cs" line="57" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Controllers/AccountController.cs" relfile="API/Controllers/AccountController.cs" line="102" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Startup.cs" relfile="API/Startup.cs" line="34" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Startup.cs" relfile="API/Startup.cs" line="46" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Startup.cs" relfile="API/Startup.cs" line="47" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Startup.cs" relfile="API/Startup.cs" line="62" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Extensions/IdenityServiceExtensions.cs" relfile="API/Extensions/IdenityServiceExtensions.cs" line="17" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Extensions/UserManagerExtensions.cs" relfile="API/Extensions/UserManagerExtensions.cs" line="15" column="1" />
+      <Breakpoint file="/Users/aneta/Projects/Shop/sportscom/API/Extensions/UserManagerExtensions.cs" relfile="API/Extensions/UserManagerExtensions.cs" line="21" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

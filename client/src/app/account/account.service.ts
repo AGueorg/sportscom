@@ -18,13 +18,14 @@ export class AccountService {
   constructor(private http: HttpClient, private router: Router) { }
 
   loadCurrentUser(token: string) {
+    console.log("begin loadCurrentUser");
     if (token === null) {
       this.currentUserSource.next(null);
       return of(null);
     }
     let headers = new HttpHeaders();
     headers = headers.set('Authorization', `Bearer ${token}`);
-
+    console.log("bevor return loadCurrentUser");
     return this.http.get(this.baseUrl + 'account', { headers }).pipe(
       map((user: IUser) => {
         if (user) {
@@ -33,10 +34,12 @@ export class AccountService {
         }
       })
     );
+    console.log("end loadCurrentUser");
   }
 
   login(values: any)
   {
+    console.log("begin login");
     return this.http.post(this.baseUrl + 'account/login', values).pipe(
         map((user: IUser) => {
           if (user) {
@@ -44,7 +47,8 @@ export class AccountService {
             this.currentUserSource.next(user);
           }
          })
-      );
+    );
+    console.log("end login");
   }
 
   register(values: any) {
