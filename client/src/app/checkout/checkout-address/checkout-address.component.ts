@@ -3,6 +3,7 @@ import { FormGroup } from '@angular/forms';
 import { AccountService } from '../../account/account.service';
 import { ToastrService } from 'ngx-toastr';
 import { Z_HUFFMAN_ONLY } from 'zlib';
+import { IAddress } from '../../shared/models/address';
 
 @Component({
   selector: 'app-checkout-address',
@@ -18,8 +19,9 @@ export class CheckoutAddressComponent implements OnInit {
 
   saveUserAddress() {
     this.accountService.updateUserAddress(this.checkoutForm.get('addressForm').value)
-      .subscribe(() => {
+      .subscribe((address: IAddress) => {
         this.toastr.success('Address Saved');
+        this.checkoutForm.get('addressForm').reset(address);
       }, error => {
         console.log(error);
       });
