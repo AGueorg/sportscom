@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{15849EC6-4DB7-4F7C-8B42-3D28C900C88A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="client/src/app/orders/orders.component.ts">
+  <MonoDevelop.Ide.Workbench ActiveDocument="client/src/app/core/interceptors/loading.interceptor.ts">
     <Files>
-      <File FileName="API/Controllers/PaymentsController.cs" Line="52" Column="26" />
-      <File FileName="Core/Interfaces/IPaymentService.cs" Line="12" Column="46" />
-      <File FileName="Infrastructure/Services/PaymentService.cs" Line="114" Column="25" />
-      <File FileName="Core/Specifications/OrderByPaymentIntentIdWithItemsSpecification.cs" Line="8" Column="24" />
-      <File FileName="Infrastructure/Services/OrderService.cs" Line="44" Column="50" />
-      <File FileName="client/src/app/checkout/checkout-payment/checkout-payment.component.html" Line="1" Column="1" />
-      <File FileName="client/src/app/checkout/checkout-payment/checkout-payment.component.ts" Line="89" Column="47" />
-      <File FileName="client/src/app/orders/orders.component.ts" Line="23" Column="7" />
+      <File FileName="client/src/app/shop/shop.service.ts" Line="68" Column="4" />
+      <File FileName="client/src/app/shop/shop.component.ts" Line="106" Column="51" />
+      <File FileName="client/src/app/shared/models/pagination.ts" Line="9" Column="18" />
+      <File FileName="client/src/app/shared/components/pager/pager.component.ts" Line="12" Column="22" />
+      <File FileName="client/src/app/shared/components/pager/pager.component.html" Line="5" Column="34" />
+      <File FileName="client/src/app/shared/shared.module.ts" Line="37" Column="17" />
+      <File FileName="client/src/app/shop/shop.component.html" Line="8" Column="71" />
+      <File FileName="client/src/app/shop/shop.component.scss" Line="18" Column="28" />
+      <File FileName="client/src/app/core/interceptors/loading.interceptor.ts" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,36 +20,20 @@
             <Node name="client" expanded="True">
               <Node name="src" expanded="True">
                 <Node name="app" expanded="True">
-                  <Node name="checkout" expanded="True">
-                    <Node name="checkout-address" expanded="True" />
-                    <Node name="checkout-delivery" expanded="True" />
-                    <Node name="checkout-payment" expanded="True" />
-                    <Node name="checkout-review" expanded="True" />
-                  </Node>
                   <Node name="core" expanded="True">
-                    <Node name="interceptors" expanded="True" />
-                  </Node>
-                  <Node name="orders" expanded="True">
-                    <Node name="orders.component.ts" selected="True" />
+                    <Node name="interceptors" expanded="True">
+                      <Node name="loading.interceptor.ts" selected="True" />
+                    </Node>
                   </Node>
                   <Node name="shared" expanded="True">
                     <Node name="components" expanded="True">
-                      <Node name="stepper" expanded="True" />
+                      <Node name="pager" expanded="True" />
                     </Node>
+                    <Node name="models" expanded="True" />
                   </Node>
+                  <Node name="shop" expanded="True" />
                 </Node>
               </Node>
-            </Node>
-            <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DTOs" expanded="True" />
-            </Node>
-            <Node name="Core" expanded="True">
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Specifications" expanded="True" />
-            </Node>
-            <Node name="Infrastructure" expanded="True">
-              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
